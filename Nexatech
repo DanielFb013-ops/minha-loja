@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NexaTech</title>
     <style>
@@ -73,7 +73,7 @@
     </style>
 </head>
 <body>
-    <h1>Bem-vindo à Minha Loja Digital</h1>
+    <h1>Bem-vindo à NexaTech</h1>
     <p>Aqui você encontra produtos digitais para facilitar sua vida.</p>
 
     <ul>
