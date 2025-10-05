@@ -1,21 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Minha Loja Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 5px #ccc;
+        }
+        li img {
+            height: 60px;
+            margin-right: 20px;
+        }
+        .product-info {
+            flex-grow: 1;
+        }
+        .price {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .faq {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #ccc;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        @media (max-width:600px) {
+            li {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            li img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Bem-vindo à Minha Loja Digital</h1>
     <p>Aqui você encontra produtos digitais para facilitar sua vida.</p>
+
     <ul>
-        <li><strong>Curso online</strong> - R$50</li>
-        <li><strong>E-book</strong> - R$20</li>
-        <li><strong>Conteúdo exclusivo</strong> - R$30</li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Curso" alt="Curso online" />
+            <div class="product-info">
+                <span>Curso online</span><br />
+                <span class="price">R$50</span>
+            </div>
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=E-book" alt="E-book" />
+            <div class="product-info">
+                <span>E-book</span><br />
+                <span class="price">R$20</span>
+            </div>
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/60?text=Exclusivo" alt="Conteúdo exclusivo" />
+            <div class="product-info">
+                <span>Conteúdo exclusivo</span><br />
+                <span class="price">R$30</span>
+            </div>
+        </li>
     </ul>
+
     <h2>Como comprar</h2>
-    <p>Para comprar, envie uma mensagem para o WhatsApp: <a href="https://wa.me/55+ 13981284809" target="_blank">Clique aqui</a></p>
+    <p>Para comprar, clique no botão abaixo para iniciar uma conversa no WhatsApp:</p>
+    <a href="https://wa.me/seunumerodetelefone" class="whatsapp-button" target="_blank">Comprar pelo WhatsApp</a>
     <p>Pagamento via Pix ou transferência bancária.</p>
+
+    <h2>Dúvidas Frequentes (FAQ)</h2>
+    <div class="faq">
+        <p><strong>1. Como recebo os produtos?</strong><br />Você receberá o acesso digital ou link para download via WhatsApp após o pagamento.</p>
+        <p><strong>2. Posso pedir reembolso?</strong><br />Sim, dentro de 7 dias após a compra, mediante solicitação.</p>
+        <p><strong>3. Qual a forma de pagamento?</strong><br />Aceitamos Pix, transferência bancária e outras formas combinadas via WhatsApp.</p>
+    </div>
+
     <h2>Contato e Suporte</h2>
-    <p>Em caso de dúvidas, entre em contato pelo WhatsApp acima.</p>
+    <div class="contact-info">
+        <p>WhatsApp: <a href="https://wa.me/13981284809" target="_blank">Clique aqui</a></p>
+        <p>E-mail: daniel-bocchi@hotmail.com</p>
+        <p>Instagram: <a href="https://instagram.com/minhaloja" target="_blank">@minhaloja</a></p>
+    </div>
 </body>
-</html>  
+</html>
