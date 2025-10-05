@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Loja Digital</title>
+</head>
+<body>
+    <h1>Bem-vindo à Minha Loja Digital</h1>
+    <p>Aqui você encontra produtos digitais para facilitar sua vida.</p>
+    <ul>
+        <li><strong>Curso online</strong> - R$50</li>
+        <li><strong>E-book</strong> - R$20</li>
+        <li><strong>Conteúdo exclusivo</strong> - R$30</li>
+    </ul>
+    <h2>Como comprar</h2>
+    <p>Para comprar, envie uma mensagem para o WhatsApp: <a href="https://wa.me/55+ 13981284809" target="_blank">Clique aqui</a></p>
+    <p>Pagamento via Pix ou transferência bancária.</p>
+    <h2>Contato e Suporte</h2>
+    <p>Em caso de dúvidas, entre em contato pelo WhatsApp acima.</p>
+</body>
+</html>  
